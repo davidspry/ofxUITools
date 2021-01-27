@@ -45,4 +45,7 @@ struct UIPoint
     }
 };
 
+template <typename T>
+using UIVector = UIPoint<T>;
+
 #endif
